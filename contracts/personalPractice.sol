@@ -29,3 +29,24 @@ contract viewAndPure {
     // 2. i noticed the example above on view function was not working when i return a string, why?
     // it worked now, but it was because i added "memory", why do I have to add it when I did not add it to the uint
 }
+
+
+contract incrementAndDecrement{
+    int public countThis;
+
+    function increment() external {
+        countThis += 1;
+
+        // this is the logic behind it, everytime the function is called, the variable will be incremented
+
+        // countThis += 1 means countThis = the value(0) + 1
+    }
+
+    // same logic goes for decrementing
+
+    function decrement() external {
+        countThis -= 1;
+    }
+
+    // That means i can call the variable "countThis" anytime because it is a state variable
+}
