@@ -50,3 +50,15 @@ contract incrementAndDecrement{
 
     // That means i can call the variable "countThis" anytime because it is a state variable
 }
+
+contract ifAndElseStatement {
+    uint public myAge = 25;
+    
+    function ifAndElse(uint _x) public view returns (string memory){
+        if (_x < myAge) {
+            return "You are underaged";
+        }
+
+        return "You are 25 years old";
+    }
+}

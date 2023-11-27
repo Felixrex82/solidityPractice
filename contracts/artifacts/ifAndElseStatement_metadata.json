@@ -6,13 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "countThis",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "ifAndElse",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "string",
 						"name": "",
-						"type": "int256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -20,16 +26,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "decrement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "myAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -46,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/personalPractice.sol": "incrementAndDecrement"
+			"contracts/personalPractice.sol": "ifAndElseStatement"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
