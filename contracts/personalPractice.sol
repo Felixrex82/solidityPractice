@@ -57,6 +57,8 @@ contract ifAndElseStatement {
     function ifAndElse(uint _x) public view returns (string memory){
         if (_x < myAge) {
             return "You are underaged";
+        }else if (_x >= myAge) {
+            return "You are good";
         }
 
         return "You are 25 years old";
