@@ -57,10 +57,24 @@ contract ifAndElseStatement {
     function ifAndElse(uint _x) public view returns (string memory){
         if (_x < myAge) {
             return "You are underaged";
-        }else if (_x >= myAge) {
+        }else if (_x > myAge) {
             return "You are good";
+        }else {
+            return "That is perfect";
+        }
+    }
+}
+
+contract forLoop {
+
+    function loop(uint y) public pure returns (uint){
+        uint result = 0;
+
+        for (uint x = 0; x < 10; x++) 
+        {
+           y += x;
         }
 
-        return "You are 25 years old";
+        return result;
     }
 }

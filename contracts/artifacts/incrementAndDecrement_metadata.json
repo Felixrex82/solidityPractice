@@ -61,11 +61,11 @@
 	},
 	"sources": {
 		"contracts/personalPractice.sol": {
-			"keccak256": "0x99fb6bff18f2af90be7619b69ec587188909c2110a203036ced34a840116050f",
+			"keccak256": "0x076e083a701eb4bdc39f2337dfc8e7fa59f4506f32e1d7aab328e7cdabfede8a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://33317bca8fb2806d56c312639bd315f6afbc96656496df23b6536ecc06bb0526",
-				"dweb:/ipfs/QmWejvTE2dCD18yxtZFqfsCrG5NvWcRKJRgqLgbK2sNehP"
+				"bzz-raw://e8b22855c4aa58083aead7f37cf5b4071986d8dcbf8b5823bc9b1c885ed85fde",
+				"dweb:/ipfs/Qmdmrvkxd8XXkpZPErRKcU8w8gKc5cxzzaD4JxiqxDKdQt"
 			]
 		}
 	},
